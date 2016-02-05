@@ -1,0 +1,9 @@
+Required features
+- 2D, color, polygons 
+
+Bonus features
+- add lighting 
+- use RGBA
+- composite shapes
+- playing with color
+
