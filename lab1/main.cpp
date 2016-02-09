@@ -9,6 +9,8 @@
 #elif __APPLE__
 	#include <OpenGL/gl.h>
 	#include <GLUT/GLUT.h>
+#else
+	#include <GL/glut.h>
 #endif
 
 using namespace std;
