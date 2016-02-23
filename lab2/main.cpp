@@ -9,6 +9,9 @@
 #elif __APPLE__
 	#include <OpenGL/gl.h>
 	#include <GLUT/GLUT.h>
+#else
+	#include <GL/glu.h>
+	#include <GL/glut.h>
 #endif
 
 using namespace std;
@@ -16,6 +19,13 @@ using namespace std;
 #define numStars 100
 #define numPlanets 9
 
+/*TODO 
+ * Use double-buffering. Replace to use glutSwapBuffer.
+ * Use glutTimerFunc to call a function repeatedly
+ * Create basic objects
+ * Creat local animation
+ * Create clock mode
+ * */
 class planet
 {
 public:
